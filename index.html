@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <header>
+
+        </header>
+
+        <main>
+
+            <div class="formular">
+                <form action="https://formspree.io/f/xeqbjyjy" method="post">
+                    <h1>Sell your Soul</h1>
+
+                    <div class="formular2">
+                        <label for="name">Name</label>
+                            <input type="text" name="Name" id="name" placeholder="Dein Name"/>
+                    </div>
+
+                    <div class="formular2">
+                        <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="example@mail.com"/>
+                    </div>
+                    
+                    <div class="formular2">
+                        <label for="passwort">Bankkarten Pin</label>
+                            <input type="password" name="passwort" id="passwort"> 
+                    </div>
+
+                    <div class="formular2">
+                        <label for="country">Land</label>
+                            <select name="country" id="country">
+                                <option value="">Auswählen</option>
+                                <option value="German">Deutschland</option>
+                                <option value="France">Frankreich</option>
+                            </select>
+                    </div>
+
+                    <div class="formular2">
+                        <label for="message">Nachricht</label>
+                            <textarea name="message" id="message" cols="40" rows="10"></textarea>
+
+                    </div>
+
+                        <div class="agb">
+                            <label for="terms">Ich akzeptiere die AGB's:</label>
+                            <input type="radio" id="terms-y" name="termns" value="Ja">
+                            <label for="">Ja</label>
+                            <input type="radio" id="terms-n" name="termns" value="Nein" checked>
+                            <label for="">Nein</label>
+                        </div><br>
+                    
+
+                    <div class="formular2 submit">
+                        <fieldset>
+                            <input type="submit" value="Absenden ">
+                        </fieldset>
+                    </div>
+                </form>	
+            </div>
+
+        </main>
+
+        <footer>
+            
+        </footer>
+        
+    </body>
+    </html>

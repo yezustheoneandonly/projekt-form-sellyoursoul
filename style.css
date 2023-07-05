@@ -1,0 +1,123 @@
+body {
+	background-image: url(/paper-68829_1280.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+.formular {
+	
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+}
+
+
+
+form {
+	flex-basis: 70vh;
+	padding: 2em;
+	background: transparent;
+	font-family:Montserrat;
+	border-radius:0.25em;
+	margin-bottom: 4em;
+	
+}
+
+h1 {
+	text-align: center;
+	font-family: 'MedievalSharp', cursive;
+	font-size: 3em;
+}
+
+input, 
+textarea, 
+select {
+	
+	font-size:0.875em;
+	font-family:inherit;
+	background:transparent;
+	border: none;
+	
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	background:transparent;
+	box-shadow:inset 0.1em 0.1em 0.25em rgba(0,0,0,0.2);
+	outline:0;
+	font-size: 1em;
+}
+
+.formular2  {
+	margin-bottom:1em;
+	display:flex;
+}
+
+.agb {
+    flex:0 1 4em;
+	padding:1em;
+	background:transparent;
+	font-size:0.75em;
+	text-align:center;
+	line-height:1;
+}
+
+label {
+	width: 100px;
+	background: transparent;
+}
+
+.formular2 label {
+	flex:0 1 8em;
+	padding:1em;
+	background:transparent;
+	font-family: 'MedievalSharp', cursive;
+	font-size:1.3em;
+	text-align: left;
+	line-height:1;
+}
+
+.formular2 input,
+.formular2 select,
+.formular2 textarea {
+	flex-grow:1;
+	
+}
+
+.submit {
+	flex-direction: row-reverse;
+	font-family: 'MedievalSharp', cursive;
+	
+}
+
+fieldset {
+	padding: 1%;
+	width: 20%;
+	border: none;
+  }
+  button,
+  input[type="submit"] {
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	font-size: 16px;
+	cursor: pointer;
+	outline: inherit;
+	height: 250px;
+	width: 250px;
+  }
+  button,
+  input[type="submit"] {
+	background-image: url(/wax-stamp-clip-maroon-wax-seal-transparent-png-2018328.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+  }
+
+
+   
