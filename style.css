@@ -21,7 +21,7 @@ form {
 	background: transparent;
 	font-family:Montserrat;
 	border-radius:0.25em;
-	margin-bottom: 4em;
+	
 	
 }
 
@@ -125,6 +125,11 @@ fieldset {
   button,
   input[type="submit"]:hover {
 	color: white;
+  }
+
+  .input {
+	margin-top: 100px;
+	
   }
 
   
