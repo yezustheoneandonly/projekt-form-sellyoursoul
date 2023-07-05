@@ -89,7 +89,6 @@ label {
 
 .submit {
 	flex-direction: row-reverse;
-	font-family: 'MedievalSharp', cursive;
 	
 	
 }
@@ -119,7 +118,8 @@ fieldset {
 	width: 150px;
 	height: 150px;
 	color: #670808;
-	
+	font-family: 'MedievalSharp', cursive;
+	text-align: center;	
   }
 
   button,
@@ -128,9 +128,20 @@ fieldset {
   }
 
   .input {
-	margin-top: 100px;
+	margin: 0;
+	position: absolute;
+	width: 40vw;
+	right: 0px;
+	bottom: 0px;
 	
   }
+
+  
+  
+.input[value="Absenden"] {
+	padding-left: 30px;
+}
+  
 
   
 
